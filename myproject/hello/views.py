@@ -1,4 +1,9 @@
 from django.http import HttpResponse
 
-def home(request Kawry):
-    return HttpResponse("Hello World! Luke's branch is slightly different")
+# <<<<<<< Ronda
+# def home_Ronda(request):
+#     return HttpResponse("Hello World, Ronda!")
+# =======
+def home(request):
+    return HttpResponse("Hello World! Ronda!!!")
+# >>>>>>> main
